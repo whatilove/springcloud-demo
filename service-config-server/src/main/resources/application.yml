@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: service-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/whatilove/spring-cloud-config-repo.git
+          username: 250655756@qq.com
+          password: zjb151107
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+server:
+  port: 8085
